@@ -55,7 +55,7 @@ Wenn das alles erledigt ist, schließen Sie die App über das Menü
 Und starten Sie sie erneut
 
 Jetzt sind Sie mit dem RNS Testnet verbunden 
-und haben beim Neustart Ihr erstes Announce gesendet.
+und haben beim Neustart Ihre erste Ankündigung gesendet.
 
 Um dies bei Bedarf zu tun, gehen Sie zum Menü Konversationen
 und klicken Sie einfach auf die erste Schaltfläche von links 

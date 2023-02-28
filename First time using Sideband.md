@@ -35,31 +35,40 @@ and start it.
 
 The Technical Guide can be consumed later 
 from the Menu, go to Preferences now.
+
 There you can change your username,
 the rest is good to know where it is,
 but can be left untouched.
+
 Now go to the Menu Connectivity and activate TCP/IP.
 When this is all done,shut down the app from the Menu
 And restart it again
+
 Now,youll be connected to the RNS Testnet 
 and have sent your first Announce at Restart.
 To do this on demand you go to the Menu Conversations
 and simply Click the first button from the left 
 (on the right top)
+
 Good,Tell friends what Announce to look for 
 instead of the lxmf adress(number)
+
 In fact this Menu is an important part of the App 
 as all users will be sending Announces,
 where you can watch and decide to start interacting,
 when your friends will come onboard,
 you will see their Announces or they see yours 
 and voila,thats all thats needed to start using the App.
+
 All it takes is a little time and more and more Announces are listed,
 so at start patience is needed in discovering 
 foreign Nodes and Peers in the Wild,
+
 soon you will have lists and contacts if you use the App,
-(which looks bare at start)
-Now is the time to tell your Friends about it.
+(which looks bare at start)you can edit/manage them there.
+
+# Now is the time to tell your Friends about it.
+
 Of course there can be more things made,
 but for beginners its all that is needed to use it.
 
@@ -74,7 +83,6 @@ a safe secure independent solution even for emergency
 scenarios is then merly a small hobby project away 
 from anyone intrested to achieve or provide.
 And we are there to assist.
+
 Please spread the word and support our efforts,
 thank you very much
-
-

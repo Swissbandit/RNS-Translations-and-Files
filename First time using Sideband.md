@@ -50,7 +50,7 @@ but can be left untouched.
 
 Now go to the Menu Connectivity and activate TCP/IP.
 When this is all done,shut down the app from the Menu
-And restart it again
+and restart it again
 
 Now,youll be connected to the RNS Testnet 
 and have sent your first Announce at Restart.

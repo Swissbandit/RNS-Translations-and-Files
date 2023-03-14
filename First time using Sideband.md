@@ -4,7 +4,7 @@ So you just became Wind of Reticulum,
 
 read some of its Technicals and Docs,
 
-now decided to try out [Sideband]?
+now decided to try out Sideband[https://github.com/markqvist/Sideband]?
 
 ok,good.
 

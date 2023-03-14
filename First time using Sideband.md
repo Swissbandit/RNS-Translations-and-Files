@@ -1,8 +1,10 @@
 ## A Welcome for the Nontechies among our friends
 
-So you just became Wind of Reticulum,
+So you just became Wind of [Reticulum](https://github.com/markqvist/Reticulum)
 
-read some of its Technicals and Docs,
+May visited it`s [Webpage](https://Reticulum.network)
+
+or read some of its [Technicals and Docs](https://github.com/markqvist/Reticulum/tree/master/docs),
 
 now decided to try out [Sideband](https://github.com/markqvist/Sideband)?
 
@@ -97,4 +99,6 @@ And we are there to assist.
 
 Please spread the word and support our efforts,
 thank you very much
+
+Visit [unsigned.io](https://unsigned.io) for more Details
 

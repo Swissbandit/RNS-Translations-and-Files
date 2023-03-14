@@ -1,6 +1,4 @@
-## A Welcome 
-
-# Especially for the Nontechies among our friends
+## A Welcome for the Nontechies among our friends
 
 So you just became Wind of Reticulum,
 
@@ -61,7 +59,7 @@ To do this on demand you go to the Menu Conversations
 and simply Click the first button from the left 
 (on the right top)
 
-Good,Tell friends what Announce to look for 
+Good,Tell your friends what Announce to look for 
 instead of the lxmf adress(number)
 
 In fact this Menu is an important part of the App 
@@ -73,7 +71,7 @@ and voila,thats all thats needed to start using the App.
 
 All it takes is a little time and more and more Announces are listed,
 so at start patience is needed in discovering 
-foreign Nodes and Peers in the Wild,
+foreign Nodes and Peers in the Wild,let the App work for a while.
 
 soon you will have lists and contacts if you use the App,
 (which looks bare at start)you can edit/manage them there.

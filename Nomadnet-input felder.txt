@@ -1,0 +1,97 @@
+## Felder und Übermittlung von Daten
+
+Nomad Network ermöglicht Ihnen die Verwendung einfacher Eingabefelder zur Übermittlung von Daten an knotenseitige Anwendungen. 
+Die übermittelten Daten werden zusammen mit anderen Sitzungsvariablen dem knotenseitigen Skript/Programm als Umgebungsvariablen zur Verfügung gestellt. 
+Diese Seite enthält ein paar Beispiele.
+
+## Umgebungsvariablen lesen
+
+## Beispiele für Felder und Übertragungen
+
+Der folgende Abschnitt enthält eine einfache Reihe von Feldern und ein paar verschiedene Links, die die Felddaten auf unterschiedliche Weise übermitteln.
+
+
+
+Ein Eingabefeld: `B444`<Benutzername`Eingabedaten>`b
+
+Ein maskiertes Feld: `B444`<!|Passwort`Wert des Feldes>`b
+
+Ein kleines Feld : `B444`<8|klein`test>`b, und etwas mehr Text.
+
+Zwei Felder : `B444`<8|ein`Ein>`b `B444`<8|zwei`Zwei>`b
+
+Die Daten können `!`[submitted`:/page/input_fields.mu`username|two]`! sein.
+
+Sie können `!`[submit`:/page/input_fields.mu`one|password|small]`! andere Felder, oder nur `!`[a single one`:/page/input_fields.mu`username]`!
+
+Oder einfach `!`[alle Felder einreichen`:/page/input_fields.mu`*]`!
+
+Die Übermittlungslinks können auch `!`[vorkonfigurierte Variablen enthalten`:/page/input_fields.mu`username|two|entitiy_id=4611|action=view]`!
+
+Oder nehmen Sie alle Felder und `!`[vorkonfigurierte Variablen`:/page/input_fields.mu`*|entitiy_id=4611|action=view]`!
+
+Oder nur `!`[vorkonfigurierte Variablen`:/page/input_fields.mu`entitiy_id=4688|task=something]`!
+
+
+vom Nomadnet Guide:
+
+Felder & Anfragen
+Nomad Network ermöglicht Ihnen die Verwendung einfacher Eingabefelder zur Übermittlung von Daten an knotenseitige Anwendungen. Die übermittelten Daten sind zusammen mit anderen Sitzungsvariablen für das Skript/Programm auf der Knotenseite als Umgebungsvariablen verfügbar.
+>>Verknüpfungen anfordern
+Links können Anforderungsvariablen und eine Liste von Feldern enthalten, die an die knotenseitige Anwendung übermittelt werden sollen. Sie können alle Felder auf der Seite, nur bestimmte und eine beliebige Anzahl von Abfragevariablen einschließen. Um einfach alle Felder auf einer Seite an eine bestimmte knotenseitige Seite zu übermitteln, erstellen Sie einen Link wie diesen:
+`Faaa
+`=
+`[Felder übermitteln`:/page/fields.mu`*]
+`=
+``
+Beachten Sie das `!*`! nach dem zusätzlichen `!\``! am Ende des Pfades. Dieses `!*`! steht für `*alle Felder`*. Sie können auch eine Liste von Feldern angeben, die einbezogen werden sollen:
+`Faaa
+`=
+`[Submit Fields`:/page/fields.mu`username|auth_token]
+`=
+``
+Wenn Sie voreingestellte Variablen einbeziehen wollen, können Sie dies wie folgt tun:
+`Faaa
+`=
+`[Query the System`:/page/fields.mu`Benutzername|auth_token|action=view|amount=64]
+`=
+``
+>> Felder
+Hier ist ein Beispiel für die Erstellung eines Feldes. Wir erstellen ein Feld namens `!user_input`! und füllen es mit dem Text `!Pre-defined data`! Beachten Sie, dass wir Hintergrundfarb-Tags verwenden, um das Feld für den Benutzer besser sichtbar zu machen:
+`Faaa
+`=
+Ein einfaches Eingabefeld: `B444`<Benutzer_Eingabe`Vordefinierte Daten>`b
+`=
+``
+Sie müssen immer ein Feld `*Name`* setzen, aber Sie können natürlich den vordefinierten Wert des Feldes weglassen:
+`Faaa
+`=
+Ein leeres Eingabefeld: `B444`<demo_empty`>`b
+`=
+``
+Sie können die Größe des Feldes wie folgt festlegen:
+`Faaa
+`=
+Ein Eingabefeld der Größe: `B444`<16|mit_Größe`>`b
+`=
+``
+Es ist möglich, Felder zu maskieren, zum Beispiel für Passwörter und ähnliches:
+`Faaa
+`=
+Ein maskiertes Eingabefeld: `B444`<!|masked_demo`hidden text>`b
+`=
+``
+Und natürlich können Sie auch alle Parameter gleichzeitig kontrollieren:
+`Faaa
+`=
+Volle Kontrolle: `B444`<!32|all_options`hidden text>`b
+`=
+``
+Das Sammeln der obigen Markierung ergibt die folgende Ausgabe:
+`Faaa`B333
+Ein einfaches Eingabefeld: `B444`<Benutzer_Eingabe`Vordefinierte Daten>`B333
+Ein leeres Eingabefeld: `B444`<demo_empty`>`B333
+Ein Eingabefeld mit einer bestimmten Größe: `B444`<16|mit_Größe`>`B333
+Ein maskiertes Eingabefeld: `B444`<!|masked_demo`hidden text>`B333
+Volle Kontrolle: `B444`<!32|alle_Optionen`versteckter Text>`B333
+``

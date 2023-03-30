@@ -36,7 +36,7 @@ Or only `!`[pre-configured variables`:/page/input_fields.mu`entitiy_id=4688|task
 
 
 
-from the nomadnet guide
+## from the nomadnet guide
 
 Fields & Requests
 Nomad Network let's you use simple input fields for submitting data to node-side applications. Submitted data, along with other session variables will be available to the node-side script / program as environment variables.
